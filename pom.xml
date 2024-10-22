@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.amcs99</groupId>
   <artifactId>card-reader-lite</artifactId>
-  <version>1.0.4</version>
+  <version>1.0.5</version>
   <packaging>pom</packaging>
   <description>IDCardReader</description>
   <dependencies>
@@ -16,12 +16,12 @@
     <dependency>
       <groupId>org.jmrtd</groupId>
       <artifactId>jmrtd</artifactId>
-      <version>0.7.18</version>
+      <version>0.7.40</version>
     </dependency>
     <dependency>
       <groupId>org.bouncycastle</groupId>
-      <artifactId>bcpkix-jdk15on</artifactId>
-      <version>1.65</version>
+      <artifactId>bcprov-jdk18on</artifactId>
+      <version>1.76</version>
     </dependency>
   </dependencies>
 </project>
